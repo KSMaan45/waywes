@@ -32,9 +32,12 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 | 8 | exit script |
 
 ## Screenshots 
+**Fullscreen**
 <img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20fullscreen.png">
- 
+
+**Windowed**
 <img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20windowed.png">
 
+**Mobile Portrait**
 <img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20mobile%20portrait.png">
 

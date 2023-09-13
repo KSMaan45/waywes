@@ -66,7 +66,7 @@ select option in "${options[@]}"; do
 3) 1280x720 Windowed will run windowed mode with 1280x720 resolution recommended when you want to do mutli task with host and waydroid.
 4) Mobile Portrait Mode is used when some app force to be in portrait and look tilted or you just want to run waydroid like mobile.
 5) Add Script To Path this option add script to PATH variable so you can run it from any directory "\"you must run script as sudo to perform this operation"\".
-6) Remove Script From Path is used to remove script from PATH variable.
+6) Remove Script From Path is used to remove script from PATH variable "\"you must run script as sudo to perform this operation"\".
 *) My github page for updates https://github.com/KSMaan45/waywes"
 
 

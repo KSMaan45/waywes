@@ -45,7 +45,6 @@ select option in "${options[@]}"; do
 	    sudo chmod u+x waywes.sh && cp waywes.sh /bin/
 	    echo "Successfully added, now you can run waywes.sh from any directory to start the script"
 	fi
-	fi
 	    ;;
 	"Remove Script From Path")
 	if [ -f "/bin/waywes.sh" ];

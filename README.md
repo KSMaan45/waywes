@@ -1,5 +1,5 @@
 ## waywes
-waywes is waydroid in weston script to run waydroid in different modes like windowed, fullscreen and mobile portrait inside weston compositor</div>
+**waywes is a script made to ease the launch process of Waydroid in X11 by using Weston compositor with different window modes like fullscreen, windowed and mobile portrait.**
 <img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20main.png">
 
 ## Requirements

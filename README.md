@@ -28,7 +28,7 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 | 2 | run waydroid in 1366x768 resolution in fullscreen |
 | 3 | run waydroid in windowed mode with resolution of 1280x720 |
 | 4 | run waydroid in mobile portrait mode |
-| 5 | add script to $PATH so you can run it from any directory with just waywes.sh |
+| 5 | <p> add script to $PATH so you can run it from any directory with just waywes.sh <font color="red">"requires root access"</font></p> |
 | 6 | remove script from $PATH |
 | 7 | explanation for each option |
 | 8 | exit script |

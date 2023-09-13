@@ -42,7 +42,7 @@ select option in "${options[@]}"; do
 	then
 	echo "waywesh.sh already in Path"
 	else
-	    sudo chmod u+x waywes.sh && cp waywes.sh /bin/
+	    sudo cp waywes.sh /bin/ && chmod u+x /bin/waywes.sh
 	    echo "Successfully added, now you can run waywes.sh from any directory to start the script"
 	fi
 	    ;;

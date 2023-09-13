@@ -64,8 +64,6 @@ select option in "${options[@]}"; do
 5) Add Script To Path this option add script to PATH variable so you can run it from any directory "\"you must run script as sudo to perform this operation"\".
 6) Remove Script From Path is used to remove script from PATH variable "\"you must run script as sudo to perform this operation"\".
 *) My github page for updates https://github.com/KSMaan45/waywes"
-
-
 	    ;;
 	"Exit")		
 	    echo "User requested exit"

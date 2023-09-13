@@ -21,7 +21,7 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 ## Usage
 
 | Options | Description |
-| --- | ---- |
+| :---: | :--- |
 | 1 | run waydroid in 1920x1080 resolution in fullscreen |
 | 2 | run waydroid in 1366x768 resolution in fullscreen |
 | 3 | run waydroid in windowed mode with resolution of 1280x720 |

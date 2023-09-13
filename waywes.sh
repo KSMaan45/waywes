@@ -42,11 +42,8 @@ select option in "${options[@]}"; do
 	then
 	echo "waywesh.sh already in Path"
 	else
-	if [ "$(id -u)" != "0" ]; then
-   	echo "Error no root privilege provided: script must be run as root to perform this operation"
-	else
 	    sudo chmod u+x waywes.sh && cp waywes.sh /bin/
-	    echo "Successfully added, now you can run waywes.sh from terminal in any directory to start the script"
+	    echo "Successfully added, now you can run waywes.sh from any directory to start the script"
 	fi
 	fi
 	    ;;
@@ -56,7 +53,7 @@ select option in "${options[@]}"; do
             sudo rm /bin/waywes.sh
 	    echo "Successfully removed"
 	    else
-	    echo "Error no such /bin/waywes.sh file exist"
+	    echo "Error no /bin/waywes.sh file exist"
 	fi
 	;;	
 	"FAQ")

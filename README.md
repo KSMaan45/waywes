@@ -20,19 +20,21 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 
 ## Usage
 
-Option 1 and 2 will run waydroid in mentioned resolution in fullscreen
-<img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20fullscreen.png">
+| Options | Description |
+| --- | ---- |
+| 1 | will run waydroid in 1920x1080 resolution in fullscreen |
+| 2 | will run waydroid in 1366x768 resolution in fullscreen |
+| 3 | will run waydroid in windowed mode with resolution of 1280x720 |
+| 4 | will run waydroid in mobile portrait mode |
+| 5 | will add script to $PATH so you can run it from any directory with just waywes.sh |
+| 6 | remove script from $PATH |
+| 7 | FAQ for each option explanation |
+| 8 | exit script |
 
-Option 3 will run waydroid in windowed mode
+## Screenshot 
+<img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20fullscreen.png">
+ 
 <img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20windowed.png">
 
-Option 4 will run waydroid in mobile portrait mode
 <img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20mobile%20portrait.png">
 
-Option 5 will add script to $PATH so you can run it from any directory with just waywes.sh
-
-Option 6 will remove script from $PATH
-
-Option 7 FAQ for each option explanation 
-
-Option 8 to exit script 

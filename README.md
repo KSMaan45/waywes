@@ -14,7 +14,9 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 
 2. Change directory ```cd waywes```
 
-3. Execute script ```./waybash.sh```
+3. Make script executable ```chmod +x waywes.sh```
+
+4. Execute script ```./waybash.sh```
 
 **Note you can use use options 1-4 without root but option 5 need script to run as root**
 

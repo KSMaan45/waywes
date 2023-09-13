@@ -31,7 +31,7 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 | 7 | explanation for each option |
 | 8 | exit script |
 
-## Screenshot 
+## Screenshots 
 <img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20fullscreen.png">
  
 <img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20windowed.png">

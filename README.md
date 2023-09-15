@@ -36,7 +36,7 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 | 9.3 | 3. FAQ for explanation of each operation. | 
 | 9.4 | 4. Main Menu to return in main menu. |
            
-**Note:** you can use options 1-10 without root but submenu options 1 and 2 of 9. Extras need root access.
+**Note:** you can use options ```1-10``` without root but submenu options ```1``` and ```2``` of ```9. Extras``` need root access.
 
 ## Add your own resolution
 

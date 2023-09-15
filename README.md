@@ -40,8 +40,8 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 
 ## Add your own resolution
 
-Since i can not all the resolutions but the one widely used and tested by me are added in the script but if you want to add your own edit waywes.sh with any text editor and make chanage to --width and --height part with your desire resolution, you can also change entry name like  "1920x1080 Fullscreen") to "2560x1440 Fullscreen") 
-for example for 2560x1440 it will be likw --width 2560 --height 1440
+Since i can not add all the resolutions but the one widely used and tested by me are added in the script, if you want to add your own edit ```waywes.sh``` with any text editor and make chanage to ```--width``` and ```--height``` part with your desire resolution, you can also change entry name like  ```"1920x1080 Fullscreen")``` to ```"2560x1440 Fullscreen")``` 
+for example for ```2560x1440`` resolution it will be like ```--width 2560 --height 1440```
 
 ## Screenshots 
 **Fullscreen**

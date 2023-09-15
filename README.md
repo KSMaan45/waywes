@@ -1,6 +1,6 @@
 ## waywes
 waywes is a script made to ease the launch process of Waydroid in X11 by using Weston compositor with different window modes like fullscreen, windowed and mobile portrait.
-<img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20main.png">
+<img src="https://github.com/KSMaan45/waywes/blob/main/S1%20Main.png">
 
 ## Requirements
 - waydroid
@@ -35,11 +35,14 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 
 ## Screenshots 
 **Fullscreen**
-<img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20fullscreen.png">
+<img src="https://github.com/KSMaan45/waywes/blob/main/S2%20Fullscreen.png">
 
 **Windowed**
-<img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20windowed.png">
+<img src="https://github.com/KSMaan45/waywes/blob/main/S3%20Windowed.png">
+
+**Tablet Mode**
+<img src="https://github.com/KSMaan45/waywes/blob/main/S4%20Tablet%20Mode.png">
 
 **Mobile Portrait**
-<img src="https://github.com/KSMaan45/waywes/blob/main/waywes%20mobile%20portrait.png">
+<img src="https://github.com/KSMaan45/waywes/blob/main/S5%20Mobile%20Portrait%20Mode.png">
 

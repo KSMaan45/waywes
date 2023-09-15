@@ -110,10 +110,10 @@ Choose One Option [1-4]: '
 [4. 1366x720 Windowed E2E]
            will run waydroid with Edge to Edge width in windowed mode
            recommended for 720p display.\n
-[5. 1024x600 Tablet Mode]
-           will run waydroid in tablet mode suitable for 720p display.\n
-[6. 1600x900 Tablet mode]
+[5. 1600x900 Tablet mode]
            will run waydroid in tablet mode suitable for 1080p display.\n
+[6. 1024x600 Tablet Mode]
+           will run waydroid in tablet mode suitable for 720p display.\n
 [7. 480x960 Mobile Portrait Mode]
            Useful when some app force to be in portrait and look
            tilted or you just want to run waydroid like mobile

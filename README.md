@@ -24,14 +24,19 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 | :---: | :--- |
 | 1 | run waydroid in 1920x1080 resolution in fullscreen |
 | 2 | run waydroid in 1366x768 resolution in fullscreen |
-| 3 | run waydroid in windowed mode with resolution of 1280x720 |
-| 4 | run waydroid in mobile portrait mode |
-| 5 | add script to $PATH so you can run it from any directory with just waywes.sh **(require root)** |
-| 6 | remove script from $PATH **(require root)** |
-| 7 | explanation for each option |
-| 8 | exit script |
-
-**Note: you can use options 1-4 without root but option 5 and 6 need root access**
+| 3 | will run waydroid with Edge to Edge width in windowed mode recommended for 1080p display |
+| 4 | will run waydroid with Edge to Edge width in windowed mode recommended for 720p display|
+| 5 | will run waydroid in tablet mode suitable for 720p display |
+| 6 | will run waydroid in tablet mode suitable for 1080p display |
+| 7 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile redommended for 1080p display |
+| 8 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile redommended for 720p display |
+| 9 | Extras explained below
+| 9.1 | 1. Add Script To Path this option add script to PATH variable so you can run it from any directory "requires root access".|
+| 9.2 | 2. Remove Script From Path is used to remove script from PATH variable "requires root access". |
+| 9.3 | 3. FAQ for explanation of each operation. | 
+| 9.4 | 4. Main Menu to return in main menu. |
+           
+**Note:** you can use options 1-4 without root but option 5 and 6 need root access
 
 ## Screenshots 
 **Fullscreen**

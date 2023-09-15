@@ -100,20 +100,20 @@ Choose One Option [1-4]: '
 	"FAQ")
 	echo -e "Following is the explanation of each option:
 [1. 1920x1080 Fullscreen]
-           will run waydroid in 1920x1080 resolution in fullscreen but 
+           Start waydroid in 1920x1080 resolution in fullscreen but 
            it will look stretched if you have lower resolution.\n
 [2. 1366x768 Fullscreen]
-           will run waydroid in 1366x768 resolution in fullscreen.\n
+           Start waydroid in 1366x768 resolution in fullscreen.\n
 [3. 1920x1024 Windowed E2E]
-           will run waydroid with Edge to Edge width in windowed mode
+           Start waydroid with Edge to Edge width in windowed mode
            recommended for 1080p display.\n
 [4. 1366x720 Windowed E2E]
-           will run waydroid with Edge to Edge width in windowed mode
+           Start waydroid with Edge to Edge width in windowed mode
            recommended for 720p display.\n
 [5. 1600x900 Tablet mode]
-           will run waydroid in tablet mode suitable for 1080p display.\n
+           Start waydroid in tablet mode suitable for 1080p display.\n
 [6. 1024x600 Tablet Mode]
-           will run waydroid in tablet mode suitable for 720p display.\n
+           Start waydroid in tablet mode suitable for 720p display.\n
 [7. 480x960 Mobile Portrait Mode]
            Useful when some app force to be in portrait and look
            tilted or you just want to run waydroid like mobile

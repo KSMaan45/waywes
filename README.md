@@ -26,8 +26,8 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 | 2 | run waydroid in 1366x768 resolution in fullscreen |
 | 3 | will run waydroid with Edge to Edge width in windowed mode recommended for 1080p display |
 | 4 | will run waydroid with Edge to Edge width in windowed mode recommended for 720p display|
-| 5 | will run waydroid in tablet mode suitable for 720p display |
-| 6 | will run waydroid in tablet mode suitable for 1080p display |
+| 5 | will run waydroid in tablet mode suitable for 1080p display |
+| 6 | will run waydroid in tablet mode suitable for 720p display |
 | 7 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile redommended for 1080p display |
 | 8 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile redommended for 720p display |
 | 9 | Extras explained below

@@ -25,35 +25,35 @@ options=("1920x1080 Fullscreen" "1366x768 Fullscreen"  "1920x1024 Windowed E2E" 
 select option in "${options[@]}"; do
     case $option in
         "1920x1080 Fullscreen")
-            waydroid session stop && weston --width 1920 --height 1080 --fullscreen --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 1 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
+            waydroid session stop && weston --width 1920 --height 1080 --fullscreen --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
             break
 	        ;;
         "1366x768 Fullscreen")
-            waydroid session stop && weston --width 1366 --height 768 --fullscreen --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 1 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
+            waydroid session stop && weston --width 1366 --height 768 --fullscreen --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
             break
 	        ;;
 	"1920x1024 Windowed E2E")
-            waydroid session stop && weston --width 1920 --height 1024 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 1 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
+            waydroid session stop && weston --width 1920 --height 1024 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
 	        break 
 	        ;;
         "1366x720 Windowed E2E")
-            waydroid session stop && weston --width 1366 --height 720 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 1 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
+            waydroid session stop && weston --width 1366 --height 720 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
 	        break
            	;;
         "1600x900 Tablet Mode")
-            waydroid session stop && weston --width 1600 --height 900 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 1 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
+            waydroid session stop && weston --width 1600 --height 900 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
            	break
             	;;
         "1024x600 Tablet Mode")
-            waydroid session stop && weston --width 1024 --height 600 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 1 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
+            waydroid session stop && weston --width 1024 --height 600 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
             	break
            	;;
          "480x960 Mobile Portrait Mode")
-	        waydroid session stop && weston --width 480 --height 960 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 1 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
+	        waydroid session stop && weston --width 480 --height 960 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
 	        break
 	        ;;
 	 "360x660 Mobile Portrait Mode")
-            waydroid session stop && weston --width 360 --height 660 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 1 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
+            waydroid session stop && weston --width 360 --height 660 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
 	        break
 	        ;;
 	 "Extras")

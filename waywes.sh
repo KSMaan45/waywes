@@ -21,7 +21,7 @@ echo -e "\033[1;32m            :.                 .:
 This is basic script to run waydroid in weston\nwith different modes by K S Maan\n"
 PS3='
 Choose One Option [1-10] To Start Waydroid In Weston: '
-options=("1920x1080 Fullscreen" "1366x768 Fullscreen"  "1920x1024 Windowed E2E" "1366x720 Windowed E2E" "1600x900 Tablet Mode" "1024x600 Tablet Mode" "480x960 Mobile Portrait Mode" "360x660 Mobile Portrait Mode" "Extras" "Exit")
+options=("1920x1080 Fullscreen" "1366x768 Fullscreen"  "1920x1024 Windowed E2E" "1366x720 Windowed E2E" "1600x900 FHD Tablet Mode" "1024x600 HD Tablet Mode" "480x960 FHD Portrait Mode" "360x660 HD Portrait Mode" "Extras" "Exit")
 select option in "${options[@]}"; do
     case $option in
         "1920x1080 Fullscreen")

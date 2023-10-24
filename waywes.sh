@@ -18,7 +18,7 @@ echo -e "\033[1;32m            :.                 .:
              .-:-===========-:-.
                .:--========--:.
                   ''======''\033[00m\n
-This is basic script to run waydroid in weston\nwith different modes by K S Maan\n"
+This is basic script to run waydroid in weston with different\nmodes by K S Maan\n"
 PS3='
 Choose One Option [1-10] To Start Waydroid In Weston: '
 options=("1920x1080 Fullscreen" "1366x768 Fullscreen"  "1920x1024 Windowed E2E" "1366x720 Windowed E2E" "1600x900 FHD Tablet Mode" "1024x600 HD Tablet Mode" "480x960 FHD Portrait Mode" "360x660 HD Portrait Mode" "Extras" "Exit")

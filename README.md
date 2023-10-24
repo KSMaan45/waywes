@@ -45,12 +45,12 @@ Since i can not add all the resolutions but the one widely used and tested by me
 **Fullscreen**
 <img src="https://github.com/KSMaan45/waywes/blob/main/S2%20Fullscreen.png">
 
-**Windowed**
-<img src="https://github.com/KSMaan45/waywes/blob/main/S3%20Windowed.png">
+**Windowed E2E**
+<img src="https://github.com/KSMaan45/waywes/blob/main/S3%20Windowed%20E2E.png">
 
 **Tablet Mode**
 <img src="https://github.com/KSMaan45/waywes/blob/main/S4%20Tablet%20Mode.png">
 
 **Mobile Portrait**
-<img src="https://github.com/KSMaan45/waywes/blob/main/S5%20Mobile%20Portrait%20Mode.png">
+<img src="https://github.com/KSMaan45/waywes/blob/main/S5%20Portrait%20Mode.png">
 

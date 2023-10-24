@@ -40,19 +40,19 @@ select option in "${options[@]}"; do
             waydroid session stop && weston --width 1366 --height 720 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
 	        break
            	;;
-        "1600x900 Tablet Mode")
+        "1600x900 FHD Tablet Mode")
             waydroid session stop && weston --width 1600 --height 900 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
            	break
             	;;
-        "1024x600 Tablet Mode")
+        "1024x600 HD Tablet Mode")
             waydroid session stop && weston --width 1024 --height 600 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
             	break
            	;;
-         "480x960 Mobile Portrait Mode")
+         "480x960 FHD Portrait Mode")
 	        waydroid session stop && weston --width 480 --height 960 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
 	        break
 	        ;;
-	 "360x660 Mobile Portrait Mode")
+	 "360x660 HD Portrait Mode")
             waydroid session stop && weston --width 360 --height 660 --shell=kiosk-shell.so --socket=wayland-1 &>/dev/null & sleep 5 && WAYLAND_DISPLAY=wayland-1 XDG_SESSION_TYPE=wayland waydroid show-full-ui
 	        break
 	        ;;
@@ -110,18 +110,18 @@ Choose One Option [1-4]: '
 [4. 1366x720 Windowed E2E]
            Start waydroid with Edge to Edge width in windowed mode
            recommended for 720p display.\n
-[5. 1600x900 Tablet mode]
-           Start waydroid in tablet mode suitable for 1080p display.\n
-[6. 1024x600 Tablet Mode]
-           Start waydroid in tablet mode suitable for 720p display.\n
-[7. 480x960 Mobile Portrait Mode]
+[5. 1600x900 FHD Tablet mode]
+           Start waydroid in tablet mode suitable for Full HD 1080p display.\n
+[6. 1024x600 HD Tablet Mode]
+           Start waydroid in tablet mode suitable for HD 720p display.\n
+[7. 480x960 FHD Portrait Mode]
            Useful when some app force to be in portrait and look
            tilted or you just want to run waydroid like mobile
-           redommended for 1080p display.\n
-[8. 360x660 Mobile Portrait Mode]
+           recommended for Full HD 1080p display.\n
+[8. 360x660 HD Portrait Mode]
            Useful when some app force to be in portrait and look
            tilted or you just want to run waydroid like mobile
-           redommended for 720p display.\n
+           recommended for HD 720p display.\n
 [9. Extras has following options:]
            1. Add Script To Path this option add script to PATH
               variable so you can run it from any directory 

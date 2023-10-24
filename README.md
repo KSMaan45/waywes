@@ -26,10 +26,10 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 | 2 | Start waydroid in 1366x768 resolution in fullscreen |
 | 3 | Start waydroid with Edge to Edge width in windowed mode recommended for 1080p display |
 | 4 | Start waydroid with Edge to Edge width in windowed mode recommended for 720p display|
-| 5 | Start waydroid in tablet mode suitable for 1080p display |
-| 6 | Start waydroid in tablet mode suitable for 720p display |
-| 7 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile recommended for 1080p display |
-| 8 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile recommended for 720p display |
+| 5 | Start waydroid in tablet mode suitable for Full HD 1080p display |
+| 6 | Start waydroid in tablet mode suitable for HD 720p display |
+| 7 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile recommended for Full HD 1080p display |
+| 8 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile recommended for HD 720p display |
 | 9 | Extras explained below
 | 9.1 | 1. Add Script To Path this option add script to PATH variable so you can run it from any directory "requires root access".|
 | 9.2 | 2. Remove Script From Path is used to remove script from PATH variable "requires root access". |

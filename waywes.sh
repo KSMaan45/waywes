@@ -82,7 +82,7 @@ Choose One Option [1-4]: '
 	"Add Script To Path")
 	if [ -f "/bin/waywes.sh" ]; 
 	then
-	echo "waywesh.sh already in Path"
+	echo "waywes.sh already in Path"
 	else
 	    su -c "cp waywes.sh /bin/ ; chmod 755 /bin/waywes.sh ; chmod u+x /bin/waywes.sh"
 	    echo "Successfully added, now you can run waywes.sh from any directory to start the script"

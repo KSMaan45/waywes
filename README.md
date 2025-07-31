@@ -10,13 +10,24 @@ waywes is a script made to ease the launch process of Waydroid in X11 by using W
 ## Install 
 
 1. Clone the repo
-```git clone https://github.com/KSMaan45/waywes.git```
+```shell 
+git clone https://github.com/KSMaan45/waywes.git
+```
 
-2. Change directory ```cd waywes```
+2. Change directory 
+```shell 
+cd waywes
+```
 
-3. Make script executable ```chmod +x waywes.sh```
+3. Make script executable 
+```shell 
+chmod +x waywes.sh
+```
 
-4. Execute script ```./waywes.sh```
+4. Execute script 
+```shell 
+./waywes.sh
+```
 
 ## Usage
 

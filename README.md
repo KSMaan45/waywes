@@ -29,12 +29,13 @@ chmod +x waywes.sh
 ./waywes.sh
 ```
 ## Launch from anywhere
+
 ### Method 1.
 With shell
 ```shell
 alias waywes='/path/to/waywes.sh'
 ```
-add above line in your default shell config file such as .bashrc for bash or .zshrc for zsh, restart your shell and now you can start script with just ```waywes``` from any directory
+add above line in your default shell config file such as ```.bashrc``` for bash or ```.zshrc``` for zsh, restart your shell and now you can start script with just ```waywes``` from any directory
 
 ### Method 2.
 With $PATH directory
@@ -55,11 +56,11 @@ after copying to ```$HOME/.local/bin``` you can just run ```waywes.sh``` from an
 | 6 | Start waydroid in tablet mode suitable for Full HD 1080p display |
 | 7 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile recommended for HD 720p display |
 | 8 | Useful when some app force to be in portrait and look tilted or you just want to run waydroid like mobile recommended for Full HD 1080p display |
-| 9 | Custom resolution like 1280x720 just input in asked input field and enter 1 for fullscreen or 0 for normal window |
+| 9 | Custom resolution like 1280x720 just input in WIDTHxHEIGHT fields and type 1 for fullscreen or 0 for normal window |
 
 ## Add your own resolution
 
-Since i can not add all the resolutions but the one widely used and tested by me are added in the script, if you want to add your own edit ```waywes.sh``` with any text editor and make changes to such as ```1) RES="1366x768" FS="--fullscreen" ;;``` with your desire resolution, Example for ```2560x1440``` resolution it will be like ``` 1) RES="2560x1440" FS="--fullscreen" ; ``` if you don't need fullscreen keep as ```FS=""``` also make changes in ```select resolution echo block``` accordingly.
+Since i can not add all the resolutions but the one widely used and tested by me are added in the script, if you want to add your own edit ```waywes.sh``` with any text editor and make changes to such as ```1) RES="1366x768" FS="--fullscreen" ;;``` with your desire resolution, Example for ```2560x1440``` resolution it will be like ```1) RES="2560x1440" FS="--fullscreen" ;;``` if you don't need fullscreen keep as ```FS=""``` also make changes in ```select resolution echo block``` accordingly.
 
 ## Screenshots 
 

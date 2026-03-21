@@ -60,4 +60,19 @@ weston \
   --width=$WIDTH \
   --height=$HEIGHT \
   $FS \
-  -- waydroid show-full-ui && waydroid session stop
+  & WESTON_PID=$!
+
+# Wait until Wayland socket exists
+while [ ! -S /run/user/$(id -u)/wayland-1 ]; do
+    sleep 0.5
+done
+
+# Starting Waydroid
+WAYLAND_DISPLAY=wayland-1 waydroid show-full-ui &
+
+# Waiting for Weston to exit
+wait $WESTON_PID
+
+# Stop waydroid session
+waydroid session stop
+

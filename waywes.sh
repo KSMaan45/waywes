@@ -63,7 +63,7 @@ weston \
   & WESTON_PID=$!
 
 # Wait until Wayland socket exists
-while [ ! -S /run/user/$(id -u)/wayland-1 ]; do
+while [ ! -S "$XDG_RUNTIME_DIR/wayland-1" ]; do
     sleep 0.5
 done
 
